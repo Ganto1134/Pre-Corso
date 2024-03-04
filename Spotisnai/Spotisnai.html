@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ita">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotisnai</title>
+</head>
+<body>
+    <h1>Registrazione a Spotisnai</h1>
+    <form onsubmit="alert('Registrazione Inviata!')">
+    <div>
+        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Cognome">
+    </div>
+    <div>
+     <input type="email" placeholder="Email">   
+    </div>
+    <div>
+        <input type="password" placeholder="Password">
+    </div>
+    <div>
+        <label>
+            Data di nascita:
+            <input type="date" name="bday" />
+          </label>
+    </div>
+    <div>
+        <label for="telefono">Inserisci il tuo numero di telefono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Inserisci il numero di telefono">
+        </div>
+        <Div>
+            <fieldset>
+                <legend>Scegli i tuoi interessi</legend>
+                <div>
+                  <input type="checkbox" id="Rap" name="interest" value="Rap" />
+                  <label for="Rap">Rap</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="Pop" name="interest" value="Pop" />
+                  <label for="Pop">Pop</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Rock" name="interest" value="Rock" />
+                    <label for="Rock">Rock</label>
+                  </div>
+              </fieldset>
+              <body>
+                <h2>Accettazione Termini e Condizioni</h2>
+                
+                <p>Si prega di accettare i termini e le condizioni:</p>
+                
+                <label for="accettazione-si">Accetto</label>
+                <input type="radio" id="accettazione-si" name="accettazione" value="si">
+                
+                <label for="accettazione-no">Non accetto</label>
+                <input type="radio" id="accettazione-no" name="accettazione" value="no">
+    </div>
+    <div>
+     <button type="submit">Invia Registrazione</button>
+    </div>
+</form>
+</body>
+</html>
